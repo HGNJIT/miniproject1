@@ -10,10 +10,6 @@ By:
 
 Links:
 <ul>
-AFS:
-https://web.njit.edu/~heg2/miniproject1/index.html
-</ul>
-<ul>
 GitHub:
 https://hgnjit.github.io/miniproject1/
 </ul>
