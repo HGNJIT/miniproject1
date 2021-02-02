@@ -40,22 +40,52 @@
                 <h1 class="card-title">Gitflow Workflow</h1>
                 <div class="card-body text-justify">
                     <p>
-                        The Gitflow Workflow is an ideology and a set of operational best practices for DevOps teams. It
-                        is suited for projects with scheduled release cycles that require continuous releases.
+                    <h3>What is Gitflow</h3>
+                    The Gitflow Workflow is an ideology and a set of operational best practices for DevOps teams. It
+                    is a branch-based flow specifically suited for teams and projects with regularly scheduled
+                    release cycle.
                     </p>
-                    <p>The idea of Gitflow revolves around the ideology of </p>
                     <p>Gitflow is the idea of a workflow for Git projects. The workflow specifies the kinds of
                         branches that should be used and how they should be merged together. The gitflow is basically a
-                        set of command line tools that has an installation process. The
-                        installation process for git-flow is straightforward. Packages for git-flow are available on
-                        multiple operating systems. On OSX systems, you can execute brew install git-flow. On windows
-                        you will need to download and install git-flow. After installing git-flow you can use it in your
-                        project by executing git flow init. Git-flow is a wrapper around Git. The git flow init command
-                        is an extension of the default git init command and doesn't change anything in your repository
-                        other than creating branches for you. </p>
+                        set of command line tools and their corresponding installation processes. The installation
+                        process for git-flow is extremely easy and straightforward. You can download the packages on
+                        almost all operating systems. After installing gitflow you can use it in your
+                        project by executing git flow init.
+                    </p>
+                    <p>
+                        The basic idea of Gitflow is to allow for a divide and conquer approach to development. With the
+                        project broken out into multiple parts, different people or groups can work on individual
+                        features or ideas without interfering with the main project or each other. This makes it easier
+                        for teams to collaborate and allows for the easy distribution of work among large groups as well
+                        as small teams.
+                    </p>
+                    <h3>Gitflow steps:</h3>
+                    <ol>
+                        <li>
+                            A sub-branch called develop is created from the master branch
+                        </li>
+                        <li>
+                            Within the develop branch, a release branch is created
+                        </li>
+                        <li>
+                            Inside of the release branch, multiple feature branches are created
+                        </li>
+                        <li>
+                            When a feature is ready for deployment, it is merged into the develop branch
+                        </li>
+                        <li>
+                            When the release branch is done it is merged into develop and master branches
+                        </li>
+                        <li>
+                            If an issue in master is detected a hotfix branch is created from master
+                        </li>
+                        <li>
+                            Once the hotfix is complete, it is merged to both develop and master
+                        </li>
+                    </ol>
                     <p>
                         More info about GitFlow Workflow can be found at: <a
-                            href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=Gitflow%20Workflow%20is%20a%20Git,development%20and%20implementing%20DevOps%20practices.&text=The%20Gitflow%20Workflow%20defines%20a,framework%20for%20managing%20larger%20projects.">Bitbucket.com</a>
+                            href="https://datasift.github.io/gitflow/IntroducingGitFlow.html">datasift.github.io</a>
                     </p>
                 </div>
             </div>
