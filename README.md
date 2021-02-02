@@ -4,7 +4,7 @@ CS117 Project
 
 By:
 <ul>
-<li>Antoun Elmos</li>
+<li>Antoun Elkomos</li>
 <li>Hannier Gil</li>
 </ul>
 
